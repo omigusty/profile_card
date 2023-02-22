@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+.container-sm {
+  max-width: 540px;
+}
+.container-sm .main-content {
+  position: relative;
+  top: -220px;
+}
+
+.profile-picture {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+}
+.profile-picture img {
+  width: 64px;
+  height: 64px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #1a1d1f;
+  margin: 0;
+}
+
+.occupation {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6f767e;
+  padding: 0;
+}
+
+.save-profile {
+  font-size: 16px;
+  font-weight: 600;
+  background: #2113e8;
+  border: none;
+}
+
+.share-profile {
+  color: #33383f;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f4f4f4;
+  border: none;
+}
+
+.content-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #272b30;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.content-text {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6f767e;
+  margin-bottom: 0px;
+}
+
+.all-services {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2113e8;
+  text-decoration: none;
+}
+
+.services .nav-item .active {
+  background-color: #2113e8;
+}
+.services .card-service {
+  border: none;
+}
+.services .card-service .service-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1d1f;
+  text-decoration: none;
+}
+.services .card-service .thumbnail {
+  max-height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.services .card-service .thumbnail .card-img-top {
+  max-height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+.services .card-service .thumbnail .card-img-top:hover {
+  transform: scale(1.2);
+}
+.services .card-service .save:hover {
+  background-color: #f4f4f4;
+}
+.services .card-service .price {
+  font-size: 15px;
+  color: #1a1d1f;
+  font-weight: 700;
+  background: #b5e4ca !important;
+}
+.services .card-service .discount {
+  font-size: 15px;
+  color: #6f767e;
+  font-weight: 700;
+  text-decoration: line-through;
+  background: #efefef !important;
+}
+
+.download-qr {
+  font-size: 16px;
+  font-weight: 600;
+  background: #2113e8;
+  border: none;
+}
+
+.form-submission {
+  background-color: #fcfcfc;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #efefef;
+  font-size: 15px;
+  font-weight: 400;
+}
+.form-submission ::-moz-placeholder {
+  color: rgba(111, 118, 126, 0.4);
+}
+.form-submission ::placeholder {
+  color: rgba(111, 118, 126, 0.4);
+}
+
+.form-message {
+  height: 120px;
+}
+
+footer .content-footer {
+  font-size: 18px;
+  font-weight: 600;
+  color: #33383f;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=style1.css.map */
