@@ -7,9 +7,14 @@
 .container-sm {
   max-width: 540px;
 }
+.container-sm .cover-image {
+  z-index: 1;
+  left: 0%;
+}
 .container-sm .main-content {
   position: relative;
-  top: -220px;
+  margin-top: 72px;
+  z-index: 2;
 }
 
 .profile-picture {

@@ -6,9 +6,14 @@
 
 .container-sm {
   max-width: 540px;
+  .cover-image {
+    z-index: 1;
+    left: 0%;
+  }
   .main-content {
     position: relative;
-    top: -220px;
+    margin-top: 72px;
+    z-index: 2;
   }
 }
 
