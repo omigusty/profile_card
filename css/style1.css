@@ -12,7 +12,6 @@
   left: 0%;
 }
 .container-sm .main-content {
-  position: relative;
   margin-top: 72px;
   z-index: 2;
 }
@@ -156,4 +155,15 @@ footer .content-footer {
   font-weight: 600;
   color: #33383f;
   margin-bottom: 0px;
+}
+
+@media (max-width: 767.98px) {
+  .save-profile {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .share-profile {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=style1.css.map */
